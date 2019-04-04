@@ -21,8 +21,7 @@ self.end_with?("?")
     self.split(/\?|\.|!/).each do |sentence|
       sentences << sentence
     end
-      sentences.reject { |sentence| sentence.empty? }
-    end
+  
      sentences.size
   end
   
